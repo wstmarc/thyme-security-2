@@ -36,6 +36,7 @@ import static org.junit.Assert.*;
  *
  * @author fred
  */
+//BASE DE TESTS EN MEMOIRE ---> db-init.xml
 @RunWith(SpringRunner.class)
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class,
         DirtiesContextBeforeModesTestExecutionListener.class,
